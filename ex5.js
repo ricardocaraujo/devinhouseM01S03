@@ -15,7 +15,7 @@ var convidado2 = {
 var convidado3 = {
     nome: "Bruna",
     sobrenome: "Leite",
-    setor: "arquibancada",
+    setor: "pista",
     idade: 20
 }
 

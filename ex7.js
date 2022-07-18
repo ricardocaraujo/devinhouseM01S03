@@ -37,4 +37,25 @@ function liberarBebidas(convidados) {
 
 var convidadosComBebidasProcessadas = liberarBebidas(listaDeConvidados) 
 
-console.log(convidadosComBebidasProcessadas)
+function separarCamarote(listaDeConvidados){
+    var listaCamarote = listaDeConvidados.filter(elemento => elemento.setor === "camarote")
+    return listaCamarote;
+}
+
+function separarArquibancada(listaDeConvidados){
+    var listaArquibancada = listaDeConvidados.filter(elemento => elemento.setor === "arquibancada")
+    return listaArquibancada;
+}
+
+function separarPista(listaDeConvidados){
+    var listaPista = listaDeConvidados.filter(elemento => elemento.setor === "pista")
+    return listaPista;
+}
+
+var listaCamarote = separarCamarote(convidadosComBebidasProcessadas);
+var listaArquibancada = separarArquibancada(convidadosComBebidasProcessadas);
+var listaPista = separarPista(convidadosComBebidasProcessadas);
+
+console.log(listaCamarote);
+console.log(listaArquibancada);
+console.log(listaPista);
