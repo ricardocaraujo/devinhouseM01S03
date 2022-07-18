@@ -9,12 +9,12 @@ var convidado2 = {
     nome: "João",
     sobrenome: "Martins",
     setor: "arquibancada",
-    pista: 16
+    idade: 16
 }
 
 var convidado3 = {
     nome: "Bruna",
     sobrenome: "Leite",
     setor: "arquibancada",
-    pista: 20
+    idade: 20
 }
